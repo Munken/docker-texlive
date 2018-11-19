@@ -1,7 +1,7 @@
 FROM sumdoc/texlive-2017
 
 RUN apt-get -y update && apt-get -y install --no-install-recommends \
-    ghostscript git\
+    ghostscript git zip\
     && rm -rf /var/lib/apt/lists/*
 
 RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
