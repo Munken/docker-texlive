@@ -23,6 +23,7 @@ RUN apt-get update -qq && apt-get upgrade -qq && \
 	python-numpy \
 	python-pygments \
 	python-pip \
+	python-scipy \
 	texlive-full \
 	unzip \
 	wget \
