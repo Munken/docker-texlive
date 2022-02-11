@@ -1,4 +1,4 @@
-FROM debian:sid
+FROM debian:stable
 LABEL maintainer "Michael Munch <mm.munk@gmail.com>"
 ENV LANG=C.UTF-8 \
     LC_ALL=C.UTF-8 \
@@ -18,12 +18,12 @@ RUN apt-get update -qq && apt-get upgrade -qq && \
 	latexml \
 	latexmk \
 	pdftk \
-	python \
-	python-matplotlib \
-	python-numpy \
-	python-pygments \
-	python-pip \
-	python-scipy \
+	python3 \
+	python3-matplotlib \
+	python3-numpy \
+	python3-pygments \
+	python3-pip \
+	python3-scipy \
 	texlive-full \
 	unzip \
 	wget \
